@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function HomeSection () {
   return (
     <div>
@@ -12,7 +12,7 @@ export default function HomeSection () {
        Hamza Rafique
       </h1>
       <p className="description">
-      A Tech Enthusiast | Learning HTML, CSS, typescript, React, and Next.Js | Enrolled in "Governor Sindh Initiative for Gen AI, Web3 and Metaverse".
+      A Tech Enthusiast | Learning HTML, CSS, typescript, React, and Next.Js | Enrolled in Governor Sindh Initiative for Gen AI, Web3 and Metaverse.
       </p>
       <div className="button-group">
         <button className="button primary-button">Hire me</button>
@@ -20,7 +20,7 @@ export default function HomeSection () {
       </div>
     </div>
     <div className="image-container">
-      <img className="image" alt="hero" src="/hero.png" />
+      <Image className="image" alt="hero" src="/hero.png" width={1200} height={1200} />
     </div>
   </div>
 </section>

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Nav() {
@@ -12,10 +13,10 @@ export default function Nav() {
         <span className="logo-text">Hamza</span>
       </a>
       <nav className="nav-links">
-        <a href="/" className="nav-link">Home</a>
-        <a href="/About" className="nav-link">About</a>
-        <a href="/Contact" className="nav-link">Contact</a>
-        <a href="#" className="nav-link">Privacy Policy</a>
+        <Link href="/" className="nav-link">Home</Link>
+        <Link href="/About" className="nav-link">About</Link>
+        <Link href="/Contact" className="nav-link">Contact</Link>
+        <Link href="#" className="nav-link">Privacy Policy</Link>
       </nav>
       <button className="button">
         Sign Up
